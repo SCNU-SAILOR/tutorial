@@ -1,0 +1,1 @@
+ros2 bag play camera_0.db3 --loop
