@@ -18,7 +18,7 @@ class vision_perception(Node):
         self.found_target = {}
         # 读取模型
         self.model = YOLO(
-            "tutorial/tutorial/ros2_ws/src/yolo_demo/model/yolov8s.pt")
+            "/home/binbin/tutorial/tutorial/ros2_ws/src/yolo_demo/model/yolov8s.pt")
 
     
     def perception_callback(self, image_msg):
